@@ -4,18 +4,16 @@ import holbertonLogo from './assets/holberton-logo.jpg'
 function App() {
   return (
     <>
-      <header className="App-header">
+      <div className="App-header">
         <img src={holbertonLogo} alt="holberton logo" />
         <h1>School dashboard</h1>
-      </header>
-
-      <main className="App-body">
+      </div>
+      <div className="App-body">
         <p>Login to access the full dashboard</p>
-      </main>
-
-      <footer className="App-footer">
-        <p>Copyright - Holberton School</p>
-      </footer>
+      </div>
+      <div className="App-footer">
+        <p>Copyright {new Date().getFullYear()} - holberton School</p>
+      </div>
     </>
   )
 }
